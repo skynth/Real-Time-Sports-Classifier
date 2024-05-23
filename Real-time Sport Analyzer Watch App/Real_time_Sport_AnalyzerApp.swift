@@ -11,7 +11,9 @@ import SwiftUI
 struct Real_time_Sport_Analyzer_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                detectionViewModel: SportDetectionViewModel(),
+                collectionViewModel: DataCollectionViewModel()
+            )
         }
-    }
-}
+    }}

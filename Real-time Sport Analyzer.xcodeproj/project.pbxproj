@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6B463EFF2BF963D000A9B1C4 /* Real_time_Sport_AnalyzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463EFE2BF963D000A9B1C4 /* Real_time_Sport_AnalyzerApp.swift */; };
-		6B463F012BF963D000A9B1C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F002BF963D000A9B1C4 /* ContentView.swift */; };
 		6B463F032BF963D100A9B1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B463F022BF963D100A9B1C4 /* Assets.xcassets */; };
 		6B463F062BF963D100A9B1C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B463F052BF963D100A9B1C4 /* Preview Assets.xcassets */; };
 		6B463F0C2BF963D100A9B1C4 /* Real-time Sport Analyzer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6B463F0B2BF963D100A9B1C4 /* Real-time Sport Analyzer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -16,6 +15,16 @@
 		6B463F132BF963D100A9B1C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F122BF963D100A9B1C4 /* ContentView.swift */; };
 		6B463F152BF963D200A9B1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B463F142BF963D200A9B1C4 /* Assets.xcassets */; };
 		6B463F182BF963D200A9B1C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B463F172BF963D200A9B1C4 /* Preview Assets.xcassets */; };
+		6B463F242BF9652100A9B1C4 /* AppConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F232BF9652100A9B1C4 /* AppConnectivityViewModel.swift */; };
+		6B463F272BF9657200A9B1C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F262BF9657200A9B1C4 /* ContentView.swift */; };
+		6B463F302BF966AD00A9B1C4 /* MotionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F2F2BF966AD00A9B1C4 /* MotionDataModel.swift */; };
+		6B463F322BF9674B00A9B1C4 /* DataCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F312BF9674B00A9B1C4 /* DataCollectionViewModel.swift */; };
+		6B463F3C2BF967D300A9B1C4 /* MotionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B463F2F2BF966AD00A9B1C4 /* MotionDataModel.swift */; };
+		6BDFF78C2BFD356C00C217CC /* SportClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF78B2BFD356C00C217CC /* SportClassifier.mlmodel */; };
+		6BDFF78D2BFD356C00C217CC /* SportClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF78B2BFD356C00C217CC /* SportClassifier.mlmodel */; };
+		6BDFF7902BFD375C00C217CC /* SportDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF78E2BFD375C00C217CC /* SportDetectionView.swift */; };
+		6BDFF7932BFD377800C217CC /* SportDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7912BFD377800C217CC /* SportDetectionViewModel.swift */; };
+		6BDFF7992BFD3C4E00C217CC /* DataCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7972BFD3C4E00C217CC /* DataCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,6 @@
 /* Begin PBXFileReference section */
 		6B463EFB2BF963D000A9B1C4 /* Real-time Sport Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real-time Sport Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B463EFE2BF963D000A9B1C4 /* Real_time_Sport_AnalyzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_time_Sport_AnalyzerApp.swift; sourceTree = "<group>"; };
-		6B463F002BF963D000A9B1C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B463F022BF963D100A9B1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B463F052BF963D100A9B1C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B463F0B2BF963D100A9B1C4 /* Real-time Sport Analyzer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real-time Sport Analyzer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +61,16 @@
 		6B463F122BF963D100A9B1C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B463F142BF963D200A9B1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B463F172BF963D200A9B1C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B463F232BF9652100A9B1C4 /* AppConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConnectivityViewModel.swift; sourceTree = "<group>"; };
+		6B463F262BF9657200A9B1C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B463F2F2BF966AD00A9B1C4 /* MotionDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataModel.swift; sourceTree = "<group>"; };
+		6B463F312BF9674B00A9B1C4 /* DataCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewModel.swift; sourceTree = "<group>"; };
+		6BDFF7882BF9C45400C217CC /* Real-time-Sport-Analyzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Real-time-Sport-Analyzer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6BDFF7892BF9C46200C217CC /* Real-time-Sport-Analyzer-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Real-time-Sport-Analyzer-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6BDFF78B2BFD356C00C217CC /* SportClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SportClassifier.mlmodel; path = "../../../Downloads/Sports ml project/SportClassifier.mlmodel"; sourceTree = "<group>"; };
+		6BDFF78E2BFD375C00C217CC /* SportDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportDetectionView.swift; sourceTree = "<group>"; };
+		6BDFF7912BFD377800C217CC /* SportDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportDetectionViewModel.swift; sourceTree = "<group>"; };
+		6BDFF7972BFD3C4E00C217CC /* DataCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,7 @@
 		6B463EF22BF963CF00A9B1C4 = {
 			isa = PBXGroup;
 			children = (
+				6BDFF78A2BFD355800C217CC /* CoreMl */,
 				6B463EFD2BF963D000A9B1C4 /* Real-time Sport Analyzer */,
 				6B463F0F2BF963D100A9B1C4 /* Real-time Sport Analyzer Watch App */,
 				6B463EFC2BF963D000A9B1C4 /* Products */,
@@ -94,8 +113,11 @@
 		6B463EFD2BF963D000A9B1C4 /* Real-time Sport Analyzer */ = {
 			isa = PBXGroup;
 			children = (
+				6BDFF7882BF9C45400C217CC /* Real-time-Sport-Analyzer-Info.plist */,
 				6B463EFE2BF963D000A9B1C4 /* Real_time_Sport_AnalyzerApp.swift */,
-				6B463F002BF963D000A9B1C4 /* ContentView.swift */,
+				6B463F222BF963E800A9B1C4 /* View Model */,
+				6B463F282BF965F100A9B1C4 /* Model */,
+				6B463F252BF9655B00A9B1C4 /* View */,
 				6B463F022BF963D100A9B1C4 /* Assets.xcassets */,
 				6B463F042BF963D100A9B1C4 /* Preview Content */,
 			);
@@ -113,8 +135,10 @@
 		6B463F0F2BF963D100A9B1C4 /* Real-time Sport Analyzer Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6BDFF7892BF9C46200C217CC /* Real-time-Sport-Analyzer-Watch-App-Info.plist */,
 				6B463F102BF963D100A9B1C4 /* Real_time_Sport_AnalyzerApp.swift */,
-				6B463F122BF963D100A9B1C4 /* ContentView.swift */,
+				6BDFF79D2BFE72AF00C217CC /* View Model */,
+				6BDFF79C2BFE723100C217CC /* View */,
 				6B463F142BF963D200A9B1C4 /* Assets.xcassets */,
 				6B463F162BF963D200A9B1C4 /* Preview Content */,
 			);
@@ -127,6 +151,57 @@
 				6B463F172BF963D200A9B1C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B463F222BF963E800A9B1C4 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B463F232BF9652100A9B1C4 /* AppConnectivityViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		6B463F252BF9655B00A9B1C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B463F262BF9657200A9B1C4 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B463F282BF965F100A9B1C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B463F2F2BF966AD00A9B1C4 /* MotionDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BDFF78A2BFD355800C217CC /* CoreMl */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF78B2BFD356C00C217CC /* SportClassifier.mlmodel */,
+			);
+			path = CoreMl;
+			sourceTree = "<group>";
+		};
+		6BDFF79C2BFE723100C217CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B463F122BF963D100A9B1C4 /* ContentView.swift */,
+				6BDFF7972BFD3C4E00C217CC /* DataCollectionView.swift */,
+				6BDFF78E2BFD375C00C217CC /* SportDetectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BDFF79D2BFE72AF00C217CC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B463F312BF9674B00A9B1C4 /* DataCollectionViewModel.swift */,
+				6BDFF7912BFD377800C217CC /* SportDetectionViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B463F012BF963D000A9B1C4 /* ContentView.swift in Sources */,
 				6B463EFF2BF963D000A9B1C4 /* Real_time_Sport_AnalyzerApp.swift in Sources */,
+				6B463F272BF9657200A9B1C4 /* ContentView.swift in Sources */,
+				6B463F242BF9652100A9B1C4 /* AppConnectivityViewModel.swift in Sources */,
+				6BDFF78C2BFD356C00C217CC /* SportClassifier.mlmodel in Sources */,
+				6B463F302BF966AD00A9B1C4 /* MotionDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDFF7992BFD3C4E00C217CC /* DataCollectionView.swift in Sources */,
 				6B463F132BF963D100A9B1C4 /* ContentView.swift in Sources */,
+				6BDFF7932BFD377800C217CC /* SportDetectionViewModel.swift in Sources */,
 				6B463F112BF963D100A9B1C4 /* Real_time_Sport_AnalyzerApp.swift in Sources */,
+				6B463F322BF9674B00A9B1C4 /* DataCollectionViewModel.swift in Sources */,
+				6BDFF7902BFD375C00C217CC /* SportDetectionView.swift in Sources */,
+				6BDFF78D2BFD356C00C217CC /* SportClassifier.mlmodel in Sources */,
+				6B463F3C2BF967D300A9B1C4 /* MotionDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +465,10 @@
 				DEVELOPMENT_TEAM = VX94UJV87E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-time-Sport-Analyzer-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Real-time Sport Analyzer";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to analyze your physical activity and provide insights.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "angthow1-jh.edu.Real-time-Sport-Analyzer";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
@@ -411,7 +498,10 @@
 				DEVELOPMENT_TEAM = VX94UJV87E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-time-Sport-Analyzer-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Real-time Sport Analyzer";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to analyze your physical activity and provide insights.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "angthow1-jh.edu.Real-time-Sport-Analyzer";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -427,7 +517,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -443,7 +533,9 @@
 				DEVELOPMENT_TEAM = VX94UJV87E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-time-Sport-Analyzer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Real-time Sport Analyzer";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,7 +568,9 @@
 				DEVELOPMENT_TEAM = VX94UJV87E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-time-Sport-Analyzer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Real-time Sport Analyzer";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
